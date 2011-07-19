@@ -1,0 +1,20 @@
+Name
+    ngx_mysqlvars - allows variables to be set from a mysql database.
+    This module could be used as a mysql vhost module.
+
+    This is a first attempt at learning how nginx works, it is not something
+    you should run in production.
+
+Version
+    0.01
+
+Synopsis
+
+location / {
+
+	set $foo mysqlvars_docroot;
+
+}
+
+
+
